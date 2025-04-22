@@ -17,7 +17,6 @@ def launch_instance(instance_type, num_cpus, num_gb_ram, name="Cherrypick-Instan
         SecurityGroupIds=['sg-046cbb3f577c4a1b7'],
         InstanceInitiatedShutdownBehavior='stop',
         IamInstanceProfile={'Name': IAM_ROLE_NAME},
-        UserData=f'#!/bin/bash\npython3 test.py',
     )
 
     instance = response['Instances'][0]
@@ -34,7 +33,6 @@ def launch_instance(instance_type, num_cpus, num_gb_ram, name="Cherrypick-Instan
     ec2.get_waiter('instance_status_ok').wait(InstanceIds=[instance_id])
 
     print("Initialization Complete!")
-
     return instance_id
 
 def kill_instance(instance_id):
@@ -77,9 +75,8 @@ def run_script_via_ssm(instance_id, file_name):
 instance_id = launch_instance('t2.micro', 1, 1)
 try:
     run_script_via_ssm(instance_id, "test.py")
-except Exception as e: 
+except Exception as e:
     print("Script Failed!!")
     print(e)
 
 kill_instance(instance_id)
-                        

@@ -11,10 +11,12 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
-:wq
-|2,0,1745308549,,"wq"
 :q
-|2,0,1745307764,,"q"
+|2,0,1745309641,,"q"
+:wq
+|2,0,1745309638,,"wq"
+:q!
+|2,0,1745309395,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -27,265 +29,98 @@
 # Registers:
 
 # File marks:
-'0  50  52  ~/instance_manager.py
-|4,48,50,52,1745308549,"~/instance_manager.py"
-'1  49  39  ~/instance_manager.py
-|4,49,49,39,1745308256,"~/instance_manager.py"
-'2  74  37  ~/instance_manager.py
-|4,50,74,37,1745307996,"~/instance_manager.py"
-'3  74  37  ~/instance_manager.py
-|4,51,74,37,1745307996,"~/instance_manager.py"
-'4  73  37  ~/instance_manager.py
-|4,52,73,37,1745307996,"~/instance_manager.py"
-'5  73  37  ~/instance_manager.py
-|4,53,73,37,1745307996,"~/instance_manager.py"
-'6  74  39  ~/instance_manager.py
-|4,54,74,39,1745307802,"~/instance_manager.py"
-'7  74  39  ~/instance_manager.py
-|4,55,74,39,1745307802,"~/instance_manager.py"
-'8  73  39  ~/instance_manager.py
-|4,56,73,39,1745307802,"~/instance_manager.py"
-'9  73  39  ~/instance_manager.py
-|4,57,73,39,1745307802,"~/instance_manager.py"
+'0  1  20  ~/test.py
+|4,48,1,20,1745309641,"~/test.py"
+'1  1  20  ~/test.py
+|4,49,1,20,1745309638,"~/test.py"
+'2  1  20  ~/touch.py
+|4,50,1,20,1745309469,"~/touch.py"
+'3  4  2  ~/test.py
+|4,51,4,2,1745309395,"~/test.py"
+'4  4  2  ~/test.py
+|4,52,4,2,1745309395,"~/test.py"
+'5  4  2  ~/test.py
+|4,53,4,2,1745309395,"~/test.py"
+'6  4  2  ~/test.py
+|4,54,4,2,1745309395,"~/test.py"
+'7  1  0  ~/t.py
+|4,55,1,0,1745309181,"~/t.py"
 
 # Jumplist (newest first):
--'  50  52  ~/instance_manager.py
-|4,39,50,52,1745308549,"~/instance_manager.py"
--'  49  39  ~/instance_manager.py
-|4,39,49,39,1745308256,"~/instance_manager.py"
--'  74  37  ~/instance_manager.py
-|4,39,74,37,1745308215,"~/instance_manager.py"
--'  73  37  ~/instance_manager.py
-|4,39,73,37,1745308215,"~/instance_manager.py"
--'  73  37  ~/instance_manager.py
-|4,39,73,37,1745307996,"~/instance_manager.py"
--'  73  39  ~/instance_manager.py
-|4,39,73,39,1745307802,"~/instance_manager.py"
--'  49  61  ~/instance_manager.py
-|4,39,49,61,1745307768,"~/instance_manager.py"
--'  49  61  ~/instance_manager.py
-|4,39,49,61,1745307768,"~/instance_manager.py"
--'  49  61  ~/instance_manager.py
-|4,39,49,61,1745307764,"~/instance_manager.py"
--'  49  61  ~/instance_manager.py
-|4,39,49,61,1745307509,"~/instance_manager.py"
--'  49  38  ~/instance_manager.py
-|4,39,49,38,1745307479,"~/instance_manager.py"
--'  48  38  ~/instance_manager.py
-|4,39,48,38,1745307479,"~/instance_manager.py"
--'  48  38  ~/instance_manager.py
-|4,39,48,38,1745307479,"~/instance_manager.py"
--'  48  38  ~/instance_manager.py
-|4,39,48,38,1745307479,"~/instance_manager.py"
--'  48  38  ~/instance_manager.py
-|4,39,48,38,1745307479,"~/instance_manager.py"
--'  48  38  ~/instance_manager.py
-|4,39,48,38,1745307479,"~/instance_manager.py"
--'  48  38  ~/instance_manager.py
-|4,39,48,38,1745307472,"~/instance_manager.py"
--'  56  38  ~/instance_manager.py
-|4,39,56,38,1745307469,"~/instance_manager.py"
--'  55  38  ~/instance_manager.py
-|4,39,55,38,1745307469,"~/instance_manager.py"
--'  55  38  ~/instance_manager.py
-|4,39,55,38,1745307469,"~/instance_manager.py"
--'  55  38  ~/instance_manager.py
-|4,39,55,38,1745307469,"~/instance_manager.py"
--'  55  38  ~/instance_manager.py
-|4,39,55,38,1745307469,"~/instance_manager.py"
--'  55  38  ~/instance_manager.py
-|4,39,55,38,1745307469,"~/instance_manager.py"
--'  55  38  ~/instance_manager.py
-|4,39,55,38,1745307469,"~/instance_manager.py"
--'  55  38  ~/instance_manager.py
-|4,39,55,38,1745307466,"~/instance_manager.py"
--'  19  10  ~/instance_manager.py
-|4,39,19,10,1745307223,"~/instance_manager.py"
--'  18  10  ~/instance_manager.py
-|4,39,18,10,1745307223,"~/instance_manager.py"
--'  18  10  ~/instance_manager.py
-|4,39,18,10,1745307223,"~/instance_manager.py"
--'  18  10  ~/instance_manager.py
-|4,39,18,10,1745307223,"~/instance_manager.py"
--'  18  10  ~/instance_manager.py
-|4,39,18,10,1745307223,"~/instance_manager.py"
--'  18  10  ~/instance_manager.py
-|4,39,18,10,1745307223,"~/instance_manager.py"
--'  18  10  ~/instance_manager.py
-|4,39,18,10,1745307223,"~/instance_manager.py"
--'  18  10  ~/instance_manager.py
-|4,39,18,10,1745307223,"~/instance_manager.py"
--'  18  10  ~/instance_manager.py
-|4,39,18,10,1745306896,"~/instance_manager.py"
--'  18  50  ~/instance_manager.py
-|4,39,18,50,1745306870,"~/instance_manager.py"
--'  82  10  ~/instance_manager.py
-|4,39,82,10,1745306743,"~/instance_manager.py"
--'  75  10  ~/instance_manager.py
-|4,39,75,10,1745306743,"~/instance_manager.py"
--'  80  10  ~/instance_manager.py
-|4,39,80,10,1745306743,"~/instance_manager.py"
--'  73  10  ~/instance_manager.py
-|4,39,73,10,1745306743,"~/instance_manager.py"
--'  81  10  ~/instance_manager.py
-|4,39,81,10,1745306743,"~/instance_manager.py"
--'  74  10  ~/instance_manager.py
-|4,39,74,10,1745306743,"~/instance_manager.py"
--'  79  10  ~/instance_manager.py
-|4,39,79,10,1745306743,"~/instance_manager.py"
--'  72  10  ~/instance_manager.py
-|4,39,72,10,1745306743,"~/instance_manager.py"
--'  81  10  ~/instance_manager.py
-|4,39,81,10,1745306743,"~/instance_manager.py"
--'  74  10  ~/instance_manager.py
-|4,39,74,10,1745306743,"~/instance_manager.py"
--'  79  10  ~/instance_manager.py
-|4,39,79,10,1745306743,"~/instance_manager.py"
--'  72  10  ~/instance_manager.py
-|4,39,72,10,1745306743,"~/instance_manager.py"
--'  81  10  ~/instance_manager.py
-|4,39,81,10,1745306743,"~/instance_manager.py"
--'  74  10  ~/instance_manager.py
-|4,39,74,10,1745306743,"~/instance_manager.py"
--'  79  10  ~/instance_manager.py
-|4,39,79,10,1745306743,"~/instance_manager.py"
--'  72  10  ~/instance_manager.py
-|4,39,72,10,1745306743,"~/instance_manager.py"
--'  79  10  ~/instance_manager.py
-|4,39,79,10,1745306743,"~/instance_manager.py"
--'  72  10  ~/instance_manager.py
-|4,39,72,10,1745306743,"~/instance_manager.py"
--'  79  10  ~/instance_manager.py
-|4,39,79,10,1745306743,"~/instance_manager.py"
--'  72  10  ~/instance_manager.py
-|4,39,72,10,1745306743,"~/instance_manager.py"
--'  79  10  ~/instance_manager.py
-|4,39,79,10,1745306743,"~/instance_manager.py"
--'  72  10  ~/instance_manager.py
-|4,39,72,10,1745306743,"~/instance_manager.py"
--'  72  10  ~/instance_manager.py
-|4,39,72,10,1745306743,"~/instance_manager.py"
--'  81  10  ~/instance_manager.py
-|4,39,81,10,1745306738,"~/instance_manager.py"
--'  72  10  ~/instance_manager.py
-|4,39,72,10,1745306738,"~/instance_manager.py"
--'  79  10  ~/instance_manager.py
-|4,39,79,10,1745306738,"~/instance_manager.py"
--'  80  10  ~/instance_manager.py
-|4,39,80,10,1745306738,"~/instance_manager.py"
--'  71  10  ~/instance_manager.py
-|4,39,71,10,1745306738,"~/instance_manager.py"
--'  78  10  ~/instance_manager.py
-|4,39,78,10,1745306738,"~/instance_manager.py"
--'  80  10  ~/instance_manager.py
-|4,39,80,10,1745306738,"~/instance_manager.py"
--'  71  10  ~/instance_manager.py
-|4,39,71,10,1745306738,"~/instance_manager.py"
--'  78  10  ~/instance_manager.py
-|4,39,78,10,1745306738,"~/instance_manager.py"
--'  80  10  ~/instance_manager.py
-|4,39,80,10,1745306738,"~/instance_manager.py"
--'  71  10  ~/instance_manager.py
-|4,39,71,10,1745306738,"~/instance_manager.py"
--'  78  10  ~/instance_manager.py
-|4,39,78,10,1745306738,"~/instance_manager.py"
--'  71  10  ~/instance_manager.py
-|4,39,71,10,1745306738,"~/instance_manager.py"
--'  78  10  ~/instance_manager.py
-|4,39,78,10,1745306738,"~/instance_manager.py"
--'  71  10  ~/instance_manager.py
-|4,39,71,10,1745306738,"~/instance_manager.py"
--'  78  10  ~/instance_manager.py
-|4,39,78,10,1745306738,"~/instance_manager.py"
--'  71  10  ~/instance_manager.py
-|4,39,71,10,1745306738,"~/instance_manager.py"
--'  78  10  ~/instance_manager.py
-|4,39,78,10,1745306738,"~/instance_manager.py"
--'  71  10  ~/instance_manager.py
-|4,39,71,10,1745306738,"~/instance_manager.py"
--'  71  10  ~/instance_manager.py
-|4,39,71,10,1745306738,"~/instance_manager.py"
--'  71  10  ~/instance_manager.py
-|4,39,71,10,1745306522,"~/instance_manager.py"
--'  71  19  ~/instance_manager.py
-|4,39,71,19,1745306515,"~/instance_manager.py"
--'  70  19  ~/instance_manager.py
-|4,39,70,19,1745306515,"~/instance_manager.py"
--'  78  19  ~/instance_manager.py
-|4,39,78,19,1745306515,"~/instance_manager.py"
--'  77  19  ~/instance_manager.py
-|4,39,77,19,1745306515,"~/instance_manager.py"
--'  70  19  ~/instance_manager.py
-|4,39,70,19,1745306515,"~/instance_manager.py"
--'  69  19  ~/instance_manager.py
-|4,39,69,19,1745306515,"~/instance_manager.py"
--'  77  19  ~/instance_manager.py
-|4,39,77,19,1745306515,"~/instance_manager.py"
--'  76  19  ~/instance_manager.py
-|4,39,76,19,1745306515,"~/instance_manager.py"
--'  70  19  ~/instance_manager.py
-|4,39,70,19,1745306515,"~/instance_manager.py"
--'  69  19  ~/instance_manager.py
-|4,39,69,19,1745306515,"~/instance_manager.py"
--'  77  19  ~/instance_manager.py
-|4,39,77,19,1745306515,"~/instance_manager.py"
--'  76  19  ~/instance_manager.py
-|4,39,76,19,1745306515,"~/instance_manager.py"
--'  79  19  ~/instance_manager.py
-|4,39,79,19,1745306515,"~/instance_manager.py"
--'  78  19  ~/instance_manager.py
-|4,39,78,19,1745306515,"~/instance_manager.py"
--'  70  19  ~/instance_manager.py
-|4,39,70,19,1745306515,"~/instance_manager.py"
--'  69  19  ~/instance_manager.py
-|4,39,69,19,1745306515,"~/instance_manager.py"
--'  77  19  ~/instance_manager.py
-|4,39,77,19,1745306515,"~/instance_manager.py"
--'  76  19  ~/instance_manager.py
-|4,39,76,19,1745306515,"~/instance_manager.py"
--'  70  19  ~/instance_manager.py
-|4,39,70,19,1745306515,"~/instance_manager.py"
--'  69  19  ~/instance_manager.py
-|4,39,69,19,1745306515,"~/instance_manager.py"
--'  77  19  ~/instance_manager.py
-|4,39,77,19,1745306515,"~/instance_manager.py"
+-'  1  20  ~/test.py
+|4,39,1,20,1745309641,"~/test.py"
+-'  1  20  ~/test.py
+|4,39,1,20,1745309638,"~/test.py"
+-'  1  20  ~/touch.py
+|4,39,1,20,1745309469,"~/touch.py"
+-'  1  20  ~/touch.py
+|4,39,1,20,1745309469,"~/touch.py"
+-'  1  20  ~/touch.py
+|4,39,1,20,1745309469,"~/touch.py"
+-'  1  20  ~/touch.py
+|4,39,1,20,1745309469,"~/touch.py"
+-'  4  2  ~/test.py
+|4,39,4,2,1745309395,"~/test.py"
+-'  4  2  ~/test.py
+|4,39,4,2,1745309395,"~/test.py"
+-'  4  2  ~/test.py
+|4,39,4,2,1745309395,"~/test.py"
+-'  4  2  ~/test.py
+|4,39,4,2,1745309395,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1745309383,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1745309383,"~/test.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
+-'  1  0  ~/t.py
+|4,39,1,0,1745309181,"~/t.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/instance_manager.py
-	*	1745308545	0
-	"	50	52
-	^	50	53
-	.	50	52
-	+	85	23
-	+	78	3
-	+	79	3
-	+	83	0
-	+	81	19
-	+	80	15
-	+	82	16
-	+	80	17
-	+	82	19
-	+	80	19
-	+	82	11
-	+	19	10
-	+	44	37
-	+	47	24
-	+	50	75
-	+	50	61
-	+	56	38
-	+	50	61
-	+	74	37
-	+	50	39
-	+	3	12
-	+	51	0
-	+	50	75
-	+	51	0
-	+	50	52
-
 > ~/test.py
-	*	1745305857	0
-	"	1	14
-	^	1	15
-	.	1	14
-	+	1	14
+	*	1745309641	0
+	"	1	20
+	^	1	21
+	.	1	20
+	+	5	0
+	+	1	20
+
+> ~/touch.py
+	*	1745309469	0
+	"	1	20
+	^	1	21
+	.	1	20
+	+	1	20
+
+> ~/t.py
+	*	1745309180	0
+	"	1	0
